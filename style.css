@@ -1,0 +1,19 @@
+*{
+    padding:0;
+
+}.bgblack{
+    background-color: black;
+}
+
+.edition_no{
+    color:white;
+    opacity:50%;
+    font-size: 12em;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.heroh{
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
