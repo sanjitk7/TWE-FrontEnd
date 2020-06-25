@@ -179,7 +179,7 @@ body{
     }
 
     .article-section{
-        flex-direction: column;
+        flex-direction: column-reverse;
         background-size: initial;
     }
     .article-cont{
