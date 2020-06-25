@@ -211,6 +211,10 @@ body{
         width:450px;
         height:300px;
     }
+
+    .hov-desc{
+        margin-top:20px;
+    }
 }
 
 
