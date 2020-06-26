@@ -116,3 +116,34 @@ body{
     margin:10px;
 }
 
+
+@media screen and (max-width:550px){
+  
+    .hov-video{
+        width:450px;
+        height:300px;
+    }
+
+    .hov-desc{
+        margin-top:20px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+   
+    
+    
+    .article-cont{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 8em 0 0 0;
+    }
+    
+    
+}
+
