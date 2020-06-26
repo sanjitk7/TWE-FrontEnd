@@ -9,42 +9,68 @@ body{
     overflow-x: hidden;
 }
 .bgblack{
-    background-color: black;
-    width: 100vw;
+    background-color: white;
+    height: 100vh;
+    
 }
 
-.edition_no{
-    color:white;
-    opacity:50%;
-    font-size: 17em;
+
+.landing-img{
+    width: 70%;
+  }
+
+.img-pos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+ .edition_no{
+    
+    font-size: 20em;
     font-weight: bold;
     font-family: 'Ubuntu', sans-serif;
-}
+    padding-left: 0;
+    padding-bottom: 0;
+} 
 
-.hero-img{
-    float:left;
-}
 
 .twe{
     display: flex;
     justify-content: space-between;
 }
 
-.heroh{
-    color:white;
+
+
+.twe-text{
+    list-style: none;
     padding-left: 0.25em;
-    font-size: 6em;
+
+    font-size: 10rem;
     font-weight: bold;
     font-family: 'Ubuntu', sans-serif;
-    line-height: 100px;
-    
+    word-wrap: break-word;
+
+
+}
+
+.twe-text-styles{
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1;
+
 }
 
 .pink{
     
     width:3em;
+
     height:20em;
+
     background-color:#FC2559;
+    margin-left: -1em;
     
 }
 
@@ -126,18 +152,9 @@ body{
 }
 /* Extra CSS AbhinavGor added */
 
-.article-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: black;
-}
 
-.article-tabs{
-    flex: 2;
-    margin: 10%;
-    margin-left: 2%;
-}
+
+
 
 .tab{
     display: flex;
@@ -168,14 +185,12 @@ body{
 }
 
 .article-cont{
-    flex: 6;
-    margin: 10%;
-    margin-right: 4%;
+   
     background-image: url(./articlebg.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 40px;
-    display: flex;
+    padding: 10px;
+    
     border-radius: 20px;
 }
 
@@ -184,7 +199,7 @@ body{
     border-radius: 20px;
     padding: 20px;
     background-color: white;
-    flex: 2;
+    
 }
 
 
