@@ -97,6 +97,11 @@ body{
     font-size: 1.5em;
 }
 
+.img-bg{
+    background-image: url('./articlebg.svg');
+    width:auto;
+}
+
 
 
 .article-text{
@@ -106,3 +111,8 @@ body{
     background-color: white;
     
 }
+.hov-title{
+    text-align: center;
+    margin:10px;
+}
+
