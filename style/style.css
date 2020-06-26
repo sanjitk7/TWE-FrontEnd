@@ -16,7 +16,7 @@ body{
 .edition_no{
     color:white;
     opacity:50%;
-    font-size: 15em;
+    font-size: 17em;
     font-weight: bold;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -33,16 +33,17 @@ body{
 .heroh{
     color:white;
     padding-left: 0.25em;
-    font-size: 6.2em;
+    font-size: 6em;
     font-weight: bold;
     font-family: 'Ubuntu', sans-serif;
+    line-height: 100px;
     
 }
 
 .pink{
     
     width:3em;
-    height:26em;
+    height:20em;
     background-color:#FC2559;
     
 }
