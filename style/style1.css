@@ -98,8 +98,10 @@ body{
 }
 
 .img-bg{
-    background-image: url('./articlebg.svg');
+    background-image: url('./article-bg.svg');
     width:auto;
+    background-size: cover;
+    border-radius: 14px;
 }
 
 
