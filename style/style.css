@@ -14,10 +14,10 @@ body{
     
 }
 
+
 .landing-img{
     width: 70%;
-    
-}
+  }
 
 .img-pos{
     display: flex;
@@ -46,11 +46,12 @@ body{
 .twe-text{
     list-style: none;
     padding-left: 0.25em;
+
     font-size: 10rem;
     font-weight: bold;
     font-family: 'Ubuntu', sans-serif;
     word-wrap: break-word;
-    
+
 
 }
 
@@ -65,7 +66,9 @@ body{
 .pink{
     
     width:3em;
-    height:15em;
+
+    height:20em;
+
     background-color:#FC2559;
     margin-left: -1em;
     
