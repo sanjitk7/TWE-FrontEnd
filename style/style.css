@@ -11,19 +11,17 @@ body{
 .bgblack{
     background-color: white;
     height: 100vh;
-    
 }
 
 
 .landing-img{
     width: 70%;
-  }
+}
 
 .img-pos{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
  .edition_no{
@@ -51,7 +49,6 @@ body{
     font-weight: bold;
     font-family: 'Ubuntu', sans-serif;
     word-wrap: break-word;
-
 
 }
 
@@ -211,6 +208,7 @@ body{
         font-size:4em;
     }
 
+
     .edition_no{
         font-size: 9em;
     }
@@ -244,7 +242,7 @@ body{
         margin-right: -80%;
         height: auto;
     }
-
+    
     .article-section{
         flex-direction: column-reverse;
         background-size: initial;

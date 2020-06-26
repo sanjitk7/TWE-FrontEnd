@@ -1,0 +1,108 @@
+*{
+    padding:0;
+    font-size: 16px;
+}
+body{
+    overflow-x: hidden;
+}
+
+.bgblack{
+    background-color: white;
+    height: 100vh;
+}
+
+.landing-img{
+    width: 70%;
+}
+
+.img-pos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edition_no{
+    
+    font-size: 20em;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 0;
+    padding-bottom: 0;
+} 
+
+.twe{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.twe-text{
+    list-style: none;
+    padding-left: 0.25em;
+
+    font-size: 10rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    word-wrap: break-word;
+
+}
+
+.twe-text-styles{
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1;
+
+}
+
+.pink{
+    
+    width:3em;
+
+    height:20em;
+
+    background-color:#FC2559;
+    margin-left: -1em;
+    
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    background-color:white
+
+  }
+
+  .card-img{
+    width:100%;
+    height:300px;
+    
+}
+
+.swiper-details{     
+    border-radius: 15px;
+    padding:10px;
+    background-color: white;
+    text-align:center;
+}
+.swiper-details h3{
+    font-size: 1.5em;
+}
+
+
+
+.article-text{
+    margin-top: 10%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    
+}
