@@ -19,34 +19,40 @@
     <script src="https://unpkg.com/swiper/js/swiper.js"></script>
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style1.css">
 
 
     <title>TWE</title>
   </head>
   <body>
     <div class="container-fluid bgblack">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-12 col-lg-6">
-                   <span class="edition_no"> 27 </span> 
+               <div class="col-sm-12 col-md-6">
+              <div class="row">
+                   <span class="edition_no "> 27 </span> 
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 col-lg-6 twe">
+            
+            
+                <div class="row">
                     <div class="pink"></div>
-               
-                    <span class="heroh"> The Weekly Edge </span> 
-                
+                <!-- <h1 class="heroh"> The Weekly Edge </h1>  -->
+                <ul class="twe-text">
+                  <li class="twe-text-styles heroh">The</li>
+                  <li class="twe-text-styles heroh">Weekly</li>
+                  <li class="twe-text-styles heroh">Edge</li>
+                </ul>
+              </div> 
                    
                 </div>
-                <div class="col-sm-12 col-lg-6">
-                    <img class="img-responsive hero-img" src="herobg.svg"/>
+                <div class="col-sm-12 col-md-6 img-pos">
+                    <img class="img-responsive landing-img" src="style/landing.svg"/>
                 </div>
-            </div>
+            
+          </div>
           <!--  <div class="row">
               <div class="col-sm-12">
-                <img src="hero-arrow.svg">
+                <img src="style/hero-arrow.svg">
               </div>
             </div>-->
         </div>
@@ -54,69 +60,221 @@
 
     <div class="container-fluid">
       <!-- Swiper -->
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <div class="swiper-img">
-          <img class="card-img" src="cardimg.jpg">
-        </div>
-        <div class="swiper-details">
-          <h3> News Headline </h3>
-        </div>
-      </div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-img">
+              <img class="card-img" src="style/cardimg.jpg">
+            </div>
+            <div class="swiper-details">
+              <h3> News Headline </h3>
+            </div>
+          </div>
 
-      <div class="swiper-slide">
-        <div class="swiper-img">
-          <img class="card-img" src="cardimg.jpg">
-        </div>
-        <div class="swiper-details">
-          <h3> News Headline </h3>
-        </div>
-      </div>
+          <div class="swiper-slide">
+            <div class="swiper-img">
+              <img class="card-img" src="style/cardimg.jpg">
+            </div>
+            <div class="swiper-details">
+              <h3> News Headline </h3>
+            </div>
+          </div>
 
-      <div class="swiper-slide">
-        <div class="swiper-img">
-          <img class="card-img" src="cardimg.jpg">
-        </div>
-        <div class="swiper-details">
-          <h3> News Headline </h3>
-        </div>
-      </div>
+          <div class="swiper-slide">
+            <div class="swiper-img">
+              <img class="card-img" src="style/cardimg.jpg">
+            </div>
+            <div class="swiper-details">
+              <h3> News Headline </h3>
+            </div>
+          </div>
 
-      <div class="swiper-slide">
-        <div class="swiper-img">
-          <img class="card-img" src="cardimg.jpg">
-        </div>
-        <div class="swiper-details">
-          <h3> News Headline </h3>
-        </div>
-      </div>
+          <div class="swiper-slide">
+            <div class="swiper-img">
+              <img class="card-img" src="style/cardimg.jpg">
+            </div>
+            <div class="swiper-details">
+              <h3> News Headline </h3>
+            </div>
+          </div>
 
-      <div class="swiper-slide">
-        <div class="swiper-img">
-          <img class="card-img" src="cardimg.jpg">
-        </div>
-        <div class="swiper-details">
-          <h3> News Headline </h3>
-        </div>
-      </div>
+          <div class="swiper-slide">
+            <div class="swiper-img">
+              <img class="card-img" src="style/cardimg.jpg">
+            </div>
+            <div class="swiper-details">
+              <h3> News Headline </h3>
+            </div>
+          </div>
 
-      <div class="swiper-slide">
-        <div class="swiper-img">
-          <img class="card-img" src="cardimg.jpg">
+          <div class="swiper-slide">
+            <div class="swiper-img">
+              <img class="card-img" src="style/cardimg.jpg">
+            </div>
+            <div class="swiper-details">
+              <h3> News Headline </h3>
+            </div>
+          </div>
+          
         </div>
-        <div class="swiper-details">
-          <h3> News Headline </h3>
-        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
       </div>
-      
     </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
+
+  <!-- <div class="container-fluid mt-3">
+    <div class="row">
+      <div class="col-sm-12 col-lg-7">
+        <div class="image-bg">
+          <img class="img-responsive" src="style/articlebg.svg">
+        </div>
+        <div class="article-content">
+          <h3 class="art-title"> Some cool title blabla bla bla</h3>
+          <p class="author"> Author Name </p>
+          <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti enim suscipit, consectetur sequi quasi adipisci a inventore ex ratione numquam animi sint, cum ea repellendus perferendis porro aperiam non?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eveniet cum unde reprehenderit commodi expedita esse dolor quis libero repellendus rerum blanditiis earum consequatur, dolorum culpa. Quos dolorem quibusdam voluptas! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium vitae ipsa aliquid laboriosam accusantium dicta explicabo esse ratione, error, enim aut ut doloribus veritatis magni incidunt dolorum, ad perspiciatis sapiente.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta ratione porro consequatur illum odio sit quidem velit magnam. Voluptas nobis repellat eveniet, debitis reprehenderit dolorum autem animi. Vel, possimus perferendis!Sequi libero quis quae, cum reiciendis ullam! Praesentium ullam, quasi, et officiis dolorem vero temporibus ad modi consectetur quam, error quibusdam hic aspernatur consequatur harum. Impedit tempora unde praesentium. Saepe.</p>
+        </div>
+      </div>
+      <div class="col-sm-12 col-lg-4">
+
+      </div>
+    </div>
+    
+  </div> -->
+<div class="row mt-5 ml-2">
+ 
+    <div class="article-cont col-md-8 img-bg">
+      <div class="article-text">
+        <h3>Some cool fancy attention grabbing article title</h3>
+        <h6>Luke Skywalker</h6>
+        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam deleniti enim suscipit, consectetur sequi quasi adipisci a inventore ex ratione numquam animi sint, cum ea repellendus perferendis porro aperiam non?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eveniet cum unde reprehenderit commodi expedita esse dolor quis libero repellendus rerum blanditiis earum consequatur, dolorum culpa. Quos dolorem quibusdam voluptas! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium vitae ipsa aliquid laboriosam accusantium dicta explicabo esse ratione, error, enim aut ut doloribus veritatis magni incidunt dolorum, ad perspiciatis sapiente.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta ratione porro consequatur illum odio sit quidem velit magnam. Voluptas nobis repellat eveniet, debitis reprehenderit dolorum autem animi. Vel, possimus perferendis!Sequi libero quis quae, cum reiciendis ullam! Praesentium ullam, quasi, et officiis dolorem vero temporibus ad modi consectetur quam, error quibusdam hic aspernatur consequatur harum. Impedit tempora unde praesentium. Saepe.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta ratione porro consequatur illum odio sit quidem velit magnam. Voluptas nobis repellat eveniet, debitis reprehenderit dolorum autem animi. Vel, possimus perferendis!Sequi libero quis quae, cum reiciendis ullam! Praesentium ullam, quasi, et officiis dolorem vero temporibus ad modi consectetur quam, error quibusdam hic aspernatur consequatur harum. Impedit tempora unde praesentium. Saepe.</p>
+            
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-3" style="max-width: 500px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="..." class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Title of the article</p>
+              <p class="card-text"><small class="text-muted">Author Name</small></p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 500px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="..." class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Title of the article</p>
+              <p class="card-text"><small class="text-muted">Author Name</small></p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 500px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="..." class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Title of the article</p>
+              <p class="card-text"><small class="text-muted">Author Name</small></p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div><div class="card mb-3" style="max-width: 500px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="..." class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Title of the article</p>
+              <p class="card-text"><small class="text-muted">Author Name</small></p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="tab">
+        <img src='./style/articlebg.svg'/>
+        <div class="tab-text">
+          <h4>Some other article</h4>
+          <h6>Han Solo</h6>
+        </div>
+      </div>
+      <div class="tab">
+        <img src='./style/articlebg.svg' />
+        <div class="tab-text">
+          <h4>Some other article</h4>
+          <h6>Han Solo</h6>
+        </div>
+      </div>
+      <div class="tab">
+        <img src='./style/articlebg.svg' />
+        <div class="tab-text">
+          <h4>Some other article</h4>
+          <h6>Han Solo</h6>
+        </div>
+      </div>
+      <div class="tab">
+        <img src='./style/articlebg.svg' />
+        <div class="tab-text">
+          <h4>Some other article</h4>
+          <h6>Han Solo</h6>
+        </div>
+      </div> -->
+    </div>
   </div>
 
+  <div class="container-fluid mt-5 mb-4">
+    <div class="row hov-title">
+      <div class="col-sm-12">
+        <h3> Humans Of VIT </h3>
+      </div>
     </div>
+    <div class="row">
+      <div class="col-sm-12 col-lg-6">
+        <iframe class="hov-video" width="560" height="310" src="https://www.youtube.com/embed/s8XIgR5OGJc" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
 
+      <div class="col-sm-12 col-lg-6">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="..." class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
      
   
